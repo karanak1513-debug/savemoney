@@ -735,6 +735,17 @@
   pointer-events: none !important;
   z-index: 0 !important;
   display: block !important;
+  transition: opacity 0.4s ease !important;
+}
+
+/* Light mode: 3D objects become subtle, ghosted background decoration */
+[data-theme="light"] #three-bg-canvas,
+:root:not([data-theme="dark"]) #three-bg-canvas {
+  opacity: 0.15 !important;
+}
+
+[data-theme="dark"] #three-bg-canvas {
+  opacity: 1 !important;
 }
 
 #three-bg-overlay {
@@ -754,7 +765,7 @@
 
 :root:not([data-theme="dark"]) #three-bg-overlay,
 [data-theme="light"] #three-bg-overlay {
-  background: radial-gradient(circle at 50% 50%, rgba(248, 250, 252, 0.08) 0%, rgba(241, 245, 249, 0.38) 65%, rgba(226, 232, 240, 0.76) 100%) !important;
+  background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.55) 0%, rgba(241, 245, 249, 0.72) 55%, rgba(226, 232, 240, 0.92) 100%) !important;
 }
 
 /* Semi-transparent frosted space cards to see 3D scenes revolving behind UI */
