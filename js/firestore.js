@@ -25,7 +25,7 @@ import {
   serverTimestamp,
   increment,
   writeBatch,
-} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+} from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
 
 // ── References ───────────────────────────────────────────────
 const userRef       = (uid) => doc(db, "users", uid);
