@@ -1,0 +1,1228 @@
+/* ============================================================
+   SAVEMONEYMANUALLY — ULTRA CINEMATIC THEME v5
+   Flawless Dark Mode Legibility · Holographic Glass · Cyber Glow
+   ============================================================ */
+
+/* ── GOOGLE FONTS ────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap');
+
+/* ─────────────────────────────────────────────────────────── */
+/* 1. UNIVERSAL HIGH-CONTRAST DARK MODE TEXT & BACKGROUNDS    */
+/* ─────────────────────────────────────────────────────────── */
+
+[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+[data-theme="dark"] body {
+  background-color: #040814 !important;
+  color: #F8FAFC !important;
+}
+
+/* Headings and Titles */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+  color: #F8FAFC !important;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Base text classes */
+[data-theme="dark"] .text-charcoal {
+  color: #F8FAFC !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .text-coolslate {
+  color: #94A3B8 !important;
+}
+
+[data-theme="dark"] .text-slate-900,
+[data-theme="dark"] .text-slate-800,
+[data-theme="dark"] .text-slate-700 {
+  color: #F1F5F9 !important;
+}
+
+[data-theme="dark"] .text-slate-600,
+[data-theme="dark"] .text-slate-500 {
+  color: #94A3B8 !important;
+}
+
+[data-theme="dark"] .text-slate-400 {
+  color: #94A3B8 !important;
+}
+
+[data-theme="dark"] .text-cobalt {
+  color: #60A5FA !important;
+  text-shadow: 0 0 12px rgba(96, 165, 250, 0.3);
+}
+
+/* Specific inline-style color overrides for hardcoded dark text */
+[data-theme="dark"] [style*="color: #0F172A"],
+[data-theme="dark"] [style*="color:#0F172A"],
+[data-theme="dark"] [style*="color: #0B0F19"],
+[data-theme="dark"] [style*="color:#0B0F19"],
+[data-theme="dark"] [style*="color: #111827"],
+[data-theme="dark"] [style*="color: #1e293b"],
+[data-theme="dark"] [style*="color: #1E293B"],
+[data-theme="dark"] [style*="color: #374151"],
+[data-theme="dark"] [style*="color:#374151"],
+[data-theme="dark"] [style*="color: #1f2937"] {
+  color: #F8FAFC !important;
+}
+
+[data-theme="dark"] [style*="color: #64748B"],
+[data-theme="dark"] [style*="color:#64748B"],
+[data-theme="dark"] [style*="color: #475569"],
+[data-theme="dark"] [style*="color:#475569"],
+[data-theme="dark"] [style*="color: #6b7280"] {
+  color: #94A3B8 !important;
+}
+
+/* Borders in Dark Mode */
+[data-theme="dark"] .border-slate-100,
+[data-theme="dark"] .border-slate-200,
+[data-theme="dark"] .border-slate-300 {
+  border-color: rgba(51, 65, 85, 0.65) !important;
+}
+
+/* Light Backgrounds converted to Dark Glass */
+[data-theme="dark"] .bg-slate-50,
+[data-theme="dark"] .bg-slate-100 {
+  background-color: rgba(30, 41, 59, 0.65) !important;
+}
+
+[data-theme="dark"] .bg-blue-50 {
+  background-color: rgba(37, 99, 235, 0.18) !important;
+}
+
+[data-theme="dark"] .border-blue-100,
+[data-theme="dark"] .border-blue-200 {
+  border-color: rgba(59, 130, 246, 0.35) !important;
+}
+
+[data-theme="dark"] .bg-emerald-50 {
+  background-color: rgba(16, 185, 129, 0.16) !important;
+}
+
+[data-theme="dark"] .border-emerald-200 {
+  border-color: rgba(16, 185, 129, 0.35) !important;
+}
+
+[data-theme="dark"] .bg-amber-50 {
+  background-color: rgba(245, 158, 11, 0.16) !important;
+}
+
+[data-theme="dark"] .border-amber-200 {
+  border-color: rgba(245, 158, 11, 0.35) !important;
+}
+
+[data-theme="dark"] .bg-rose-50 {
+  background-color: rgba(244, 63, 94, 0.16) !important;
+}
+
+[data-theme="dark"] .border-rose-200 {
+  border-color: rgba(244, 63, 94, 0.35) !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: rgba(15, 23, 42, 0.85) !important;
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 2. ULTRA-PREMIUM METALLIC & GLASS CARDS                   */
+/* ─────────────────────────────────────────────────────────── */
+
+/* Base Card (Light Mode) */
+.metallic-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.70) 0%, rgba(248, 250, 252, 0.55) 100%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.85) !important;
+  border-radius: 24px !important;
+  box-shadow:
+    0 16px 40px -10px rgba(15, 23, 42, 0.06),
+    0 2px 8px rgba(15, 23, 42, 0.03),
+    inset 0 1px 0 rgba(255, 255, 255, 1),
+    0 0 0 1px rgba(245, 158, 11, 0.08) !important;
+  backdrop-filter: blur(24px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(180%) !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.metallic-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2.5px;
+  background: linear-gradient(90deg, #F59E0B 0%, #38BDF8 32%, #7C3AED 68%, #10B981 100%);
+  opacity: 0.75;
+  transition: all 0.35s ease;
+  z-index: 10;
+}
+
+.metallic-card:hover::before {
+  opacity: 1;
+  height: 3.5px;
+  box-shadow: 0 0 16px rgba(245, 158, 11, 0.65), 0 0 8px rgba(56, 189, 248, 0.5);
+}
+
+.metallic-card:hover {
+  transform: translateY(-3px) !important;
+  box-shadow:
+    0 24px 50px -10px rgba(245, 158, 11, 0.14),
+    0 6px 18px rgba(37, 99, 235, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 1) !important;
+  border-color: rgba(245, 158, 11, 0.38) !important;
+}
+
+/* Card in DARK MODE - Cosmic Frosted Space Glass */
+[data-theme="dark"] .metallic-card {
+  background: linear-gradient(145deg, rgba(8, 14, 30, 0.60) 0%, rgba(4, 8, 20, 0.68) 100%) !important;
+  border: 1px solid rgba(59, 130, 246, 0.24) !important;
+  border-radius: 24px !important;
+  box-shadow:
+    0 20px 55px -10px rgba(0, 0, 0, 0.75),
+    0 0 0 1px rgba(255, 255, 255, 0.06) inset,
+    inset 0 1px 0 rgba(255, 255, 255, 0.14) !important;
+  backdrop-filter: blur(28px) saturate(200%) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(200%) !important;
+}
+
+[data-theme="dark"] .metallic-card::before {
+  background: linear-gradient(90deg, #38BDF8 0%, #F59E0B 38%, #60A5FA 72%, #A855F7 100%);
+  opacity: 0.85;
+}
+
+[data-theme="dark"] .metallic-card:hover {
+  transform: translateY(-3px) !important;
+  border-color: rgba(96, 165, 250, 0.60) !important;
+  box-shadow:
+    0 28px 70px -12px rgba(37, 99, 235, 0.45),
+    0 0 30px rgba(59, 130, 246, 0.22) inset,
+    0 0 0 1px rgba(96, 165, 250, 0.40) inset !important;
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 3. GOAL VAULTS GRID CARDS (SPECIFIC TARGETING)             */
+/* ─────────────────────────────────────────────────────────── */
+
+#vaults-grid-container .metallic-card {
+  min-height: 230px;
+}
+
+/* Goal Title in Dark Mode */
+[data-theme="dark"] #vaults-grid-container h4,
+[data-theme="dark"] .metallic-card h4 {
+  color: #FFFFFF !important;
+  font-size: 0.95rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.01em !important;
+  text-shadow: 0 0 16px rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Cadence Pill */
+[data-theme="dark"] #vaults-grid-container span.text-cobalt,
+[data-theme="dark"] .metallic-card span.text-cobalt {
+  color: #60A5FA !important;
+  text-shadow: 0 0 10px rgba(96, 165, 250, 0.4) !important;
+  background: rgba(37, 99, 235, 0.18) !important;
+  border: 1px solid rgba(96, 165, 250, 0.35) !important;
+  padding: 2px 7px !important;
+  border-radius: 6px !important;
+  display: inline-block !important;
+}
+
+/* Percentage Pill */
+[data-theme="dark"] #vaults-grid-container span.bg-slate-50,
+[data-theme="dark"] .metallic-card span.bg-slate-50 {
+  background: rgba(30, 58, 138, 0.35) !important;
+  border-color: rgba(96, 165, 250, 0.45) !important;
+  color: #93C5FD !important;
+  font-weight: 800 !important;
+  box-shadow: 0 0 12px rgba(37, 99, 235, 0.25) inset !important;
+}
+
+/* Currency Amount - Main current amount */
+[data-theme="dark"] #vaults-grid-container .font-extrabold.text-charcoal,
+[data-theme="dark"] .metallic-card .font-extrabold.text-charcoal {
+  color: #FFFFFF !important;
+  font-weight: 800 !important;
+  text-shadow: 0 0 20px rgba(96, 165, 250, 0.3) !important;
+}
+
+/* Target amount "of ₹1,80,000" */
+[data-theme="dark"] #vaults-grid-container span.text-coolslate,
+[data-theme="dark"] .metallic-card span.text-coolslate {
+  color: #94A3B8 !important;
+}
+
+/* Days Left Indicator */
+[data-theme="dark"] #vaults-grid-container .text-coolslate.flex,
+[data-theme="dark"] .metallic-card .text-coolslate.flex {
+  color: #94A3B8 !important;
+  font-weight: 600 !important;
+}
+
+/* Delete Button on Goal Card */
+[data-theme="dark"] .btn-delete-goal {
+  background: rgba(30, 41, 59, 0.65) !important;
+  border-color: rgba(71, 85, 105, 0.6) !important;
+  color: #94A3B8 !important;
+  border-radius: 12px !important;
+  transition: all 0.2s ease !important;
+}
+
+[data-theme="dark"] .btn-delete-goal:hover {
+  background: rgba(225, 29, 72, 0.22) !important;
+  border-color: rgba(244, 63, 94, 0.65) !important;
+  color: #FB7185 !important;
+  box-shadow: 0 0 18px rgba(225, 29, 72, 0.3) !important;
+  transform: translateY(-1px) scale(1.04) !important;
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 4. PROGRESS BARS — ULTRA NEON GLOW & SHIMMER              */
+/* ─────────────────────────────────────────────────────────── */
+
+.progress-track {
+  background: rgba(226, 232, 240, 0.85) !important;
+  border-radius: 9999px !important;
+  height: 8px !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+[data-theme="dark"] .progress-track {
+  background: rgba(15, 23, 42, 0.95) !important;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.06) !important;
+}
+
+.progress-fill-shimmer {
+  height: 100% !important;
+  border-radius: 9999px !important;
+  background: linear-gradient(90deg, #2563EB 0%, #7C3AED 42%, #06B6D4 78%, #3B82F6 100%) !important;
+  background-size: 250% 100% !important;
+  animation: progressShimmerSweep 2.8s linear infinite, progressNeonPulse 3s ease-in-out infinite !important;
+  box-shadow: 0 0 12px rgba(37, 99, 235, 0.65), 0 0 5px rgba(6, 182, 212, 0.45) !important;
+}
+
+@keyframes progressShimmerSweep {
+  0%   { background-position: 250% 0; }
+  100% { background-position: -250% 0; }
+}
+
+@keyframes progressNeonPulse {
+  0%, 100% { filter: brightness(1); }
+  50%       { filter: brightness(1.28); }
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 5. BUTTONS — ULTRA LUXURY FINTECH GRADIENTS                */
+/* ─────────────────────────────────────────────────────────── */
+
+.btn-primary-metallic {
+  background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%) !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  border: 1px solid rgba(255, 255, 255, 0.28) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 18px rgba(37, 99, 235, 0.38), 0 1px 3px rgba(0, 0, 0, 0.12) !important;
+  position: relative !important;
+  overflow: hidden !important;
+  cursor: pointer !important;
+  transition: all 0.24s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+.btn-primary-metallic::after {
+  content: '' !important;
+  position: absolute !important;
+  top: 0;
+  left: -120%;
+  width: 70%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35), transparent) !important;
+  transform: skewX(-20deg) !important;
+  transition: left 0.6s ease !important;
+  pointer-events: none !important;
+}
+
+.btn-primary-metallic:hover:not(:disabled)::after {
+  left: 170% !important;
+}
+
+.btn-primary-metallic:hover:not(:disabled) {
+  transform: translateY(-2px) scale(1.02) !important;
+  box-shadow: 0 8px 28px rgba(37, 99, 235, 0.55), 0 0 20px rgba(124, 58, 237, 0.35) !important;
+}
+
+.btn-primary-metallic:active:not(:disabled) {
+  transform: translateY(0) scale(0.98) !important;
+}
+
+/* Secondary Button */
+.btn-secondary-metallic {
+  background: rgba(255, 255, 255, 0.90) !important;
+  border: 1px solid rgba(226, 232, 240, 0.95) !important;
+  border-radius: 12px !important;
+  font-weight: 600 !important;
+  color: #374151 !important;
+  transition: all 0.22s ease !important;
+}
+
+[data-theme="dark"] .btn-secondary-metallic {
+  background: rgba(30, 41, 59, 0.75) !important;
+  border-color: rgba(51, 65, 85, 0.75) !important;
+  color: #CBD5E1 !important;
+}
+
+[data-theme="dark"] .btn-secondary-metallic:hover:not(:disabled) {
+  background: rgba(37, 99, 235, 0.20) !important;
+  border-color: rgba(96, 165, 250, 0.55) !important;
+  color: #93C5FD !important;
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.22) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Danger Button */
+.btn-danger-metallic {
+  border-radius: 12px !important;
+  font-weight: 700 !important;
+  transition: all 0.22s ease !important;
+}
+
+[data-theme="dark"] .btn-danger-metallic {
+  background: rgba(225, 29, 72, 0.18) !important;
+  border: 1px solid rgba(244, 63, 94, 0.45) !important;
+  color: #FB7185 !important;
+}
+
+[data-theme="dark"] .btn-danger-metallic:hover:not(:disabled) {
+  background: rgba(225, 29, 72, 0.28) !important;
+  border-color: rgba(244, 63, 94, 0.75) !important;
+  box-shadow: 0 4px 18px rgba(225, 29, 72, 0.35) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 6. GLASS INNER TILES (KPI & STATS WIDGETS)                */
+/* ─────────────────────────────────────────────────────────── */
+
+.glass-inner-tile {
+  background: rgba(255, 255, 255, 0.65) !important;
+  border: 1px solid rgba(226, 232, 240, 0.85) !important;
+  border-radius: 18px !important;
+  backdrop-filter: blur(16px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04) !important;
+  transition: all 0.25s ease !important;
+}
+
+.glass-inner-tile:hover {
+  background: rgba(255, 255, 255, 0.82) !important;
+  border-color: rgba(96, 165, 250, 0.5) !important;
+  box-shadow: 0 8px 24px -4px rgba(37, 99, 235, 0.12) !important;
+  transform: translateY(-2px) !important;
+}
+
+[data-theme="dark"] .glass-inner-tile {
+  background: rgba(14, 22, 42, 0.55) !important;
+  border-color: rgba(51, 65, 85, 0.6) !important;
+  border-radius: 18px !important;
+  backdrop-filter: blur(20px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(190%) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3) !important;
+}
+
+[data-theme="dark"] .glass-inner-tile:hover {
+  background: rgba(25, 36, 62, 0.70) !important;
+  border-color: rgba(96, 165, 250, 0.5) !important;
+  box-shadow: 0 8px 24px -4px rgba(37, 99, 235, 0.25) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 7. COCKPIT TOTAL STASHED DISPLAY & STATS                   */
+/* ─────────────────────────────────────────────────────────── */
+
+[data-theme="dark"] #totalStashedDisplay {
+  color: #FFFFFF !important;
+  text-shadow: 0 0 32px rgba(96, 165, 250, 0.35), 0 2px 8px rgba(0, 0, 0, 0.5) !important;
+}
+
+[data-theme="dark"] #metric-streak-count,
+[data-theme="dark"] #metric-vaults-count,
+[data-theme="dark"] #metric-month-saved {
+  color: #F8FAFC !important;
+  text-shadow: 0 0 16px rgba(255, 255, 255, 0.15) !important;
+}
+
+/* AI Pacing Guardrail */
+[data-theme="dark"] #ai-pacing-headline {
+  color: #F8FAFC !important;
+}
+
+[data-theme="dark"] #ai-pacing-detail {
+  color: #CBD5E1 !important;
+}
+
+[data-theme="dark"] #ai-quota-monthly,
+[data-theme="dark"] #ai-days-remaining {
+  color: #F8FAFC !important;
+}
+
+[data-theme="dark"] #ai-quota-daily {
+  color: #60A5FA !important;
+  text-shadow: 0 0 14px rgba(96, 165, 250, 0.4) !important;
+}
+
+[data-theme="dark"] #ai-projected-eta {
+  color: #34D399 !important;
+  text-shadow: 0 0 14px rgba(52, 211, 153, 0.4) !important;
+}
+
+[data-theme="dark"] .pacing-banner-optimal {
+  background: rgba(30, 58, 138, 0.25) !important;
+  border: 1px solid rgba(59, 130, 246, 0.4) !important;
+  border-left: 4px solid #3B82F6 !important;
+}
+
+[data-theme="dark"] .pacing-banner-warning {
+  background: rgba(136, 19, 55, 0.25) !important;
+  border: 1px solid rgba(244, 63, 94, 0.4) !important;
+  border-left: 4px solid #E11D48 !important;
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 8. CALENDAR VIEW DARK MODE OVERRIDES                       */
+/* ─────────────────────────────────────────────────────────── */
+
+[data-theme="dark"] #cal-month-title {
+  color: #F8FAFC !important;
+  letter-spacing: 0.05em !important;
+}
+
+[data-theme="dark"] #cal-prev-btn,
+[data-theme="dark"] #cal-next-btn {
+  background: rgba(30, 41, 59, 0.75) !important;
+  border-color: rgba(51, 65, 85, 0.7) !important;
+  color: #F8FAFC !important;
+}
+
+[data-theme="dark"] #cal-today-btn {
+  background: rgba(37, 99, 235, 0.2) !important;
+  border-color: rgba(59, 130, 246, 0.4) !important;
+  color: #93C5FD !important;
+}
+
+[data-theme="dark"] .cal-day-cell {
+  background: rgba(14, 22, 42, 0.75) !important;
+  border-color: rgba(51, 65, 85, 0.6) !important;
+  color: #CBD5E1 !important;
+}
+
+[data-theme="dark"] .cal-day-cell:hover {
+  background: rgba(30, 45, 75, 0.85) !important;
+  border-color: rgba(96, 165, 250, 0.5) !important;
+  color: #FFFFFF !important;
+}
+
+[data-theme="dark"] .cal-day-cell.cal-active-saved {
+  background: rgba(30, 58, 138, 0.45) !important;
+  border-color: #3B82F6 !important;
+  color: #93C5FD !important;
+  box-shadow: 0 0 16px rgba(37, 99, 235, 0.28) inset !important;
+}
+
+[data-theme="dark"] .cal-day-badge {
+  background: rgba(16, 185, 129, 0.25) !important;
+  border: 1px solid rgba(52, 211, 153, 0.45) !important;
+  color: #6EE7B7 !important;
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 9. SIDEBAR & NAVIGATION                                    */
+/* ─────────────────────────────────────────────────────────── */
+
+[data-theme="dark"] #sidebar {
+  background: rgba(8, 14, 28, 0.65) !important;
+  backdrop-filter: blur(32px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(32px) saturate(190%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  box-shadow: 0 24px 60px -12px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
+  border-radius: 24px !important;
+}
+
+:root:not([data-theme="dark"]) #sidebar,
+[data-theme="light"] #sidebar {
+  background: rgba(255, 255, 255, 0.68) !important;
+  backdrop-filter: blur(32px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(32px) saturate(190%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.85) !important;
+  box-shadow: 0 20px 50px -10px rgba(15, 23, 42, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.95) inset !important;
+  border-radius: 24px !important;
+}
+
+[data-theme="dark"] .desktop-nav-item {
+  color: #94A3B8 !important;
+  border-radius: 14px !important;
+}
+
+[data-theme="dark"] .desktop-nav-item:hover {
+  color: #F8FAFC !important;
+  background: rgba(37, 99, 235, 0.18) !important;
+  border-color: rgba(96, 165, 250, 0.3) !important;
+}
+
+[data-theme="dark"] .desktop-nav-item.bg-blue-50\/90,
+[data-theme="dark"] .desktop-nav-item.active {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.32) 0%, rgba(124, 58, 237, 0.28) 100%) !important;
+  color: #93C5FD !important;
+  border-color: rgba(96, 165, 250, 0.5) !important;
+  box-shadow: 0 4px 18px rgba(37, 99, 235, 0.25) !important;
+}
+
+[data-theme="dark"] #dash-profile-card {
+  background: rgba(14, 22, 42, 0.65) !important;
+  border-color: rgba(51, 65, 85, 0.6) !important;
+}
+
+[data-theme="dark"] #dash-user-name,
+[data-theme="dark"] #userDisplayName {
+  color: #F8FAFC !important;
+}
+
+/* Mobile top bar */
+[data-theme="dark"] .md\:hidden.w-full.bg-white\/80 {
+  background: rgba(8, 14, 28, 0.85) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+[data-theme="dark"] #btn-dash-signout-mobile {
+  background: rgba(30, 41, 59, 0.7) !important;
+  border-color: rgba(51, 65, 85, 0.6) !important;
+  color: #94A3B8 !important;
+}
+
+/* Mobile lower dock navigation */
+#mobile-navigation-dock {
+  border-radius: 24px 24px 0 0 !important;
+}
+
+[data-theme="dark"] #mobile-navigation-dock {
+  background: rgba(8, 14, 28, 0.88) !important;
+  border-top-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.6) !important;
+  backdrop-filter: blur(28px) !important;
+}
+
+[data-theme="dark"] .mobile-nav-item {
+  color: #94A3B8 !important;
+}
+
+[data-theme="dark"] .mobile-nav-item.text-blue-600 {
+  color: #60A5FA !important;
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 10. MODALS, INPUTS & FORMS                                 */
+/* ─────────────────────────────────────────────────────────── */
+
+[data-theme="dark"] .modal-dialog {
+  background: rgba(9, 15, 30, 0.96) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  box-shadow: 0 25px 70px -10px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.05) inset !important;
+  backdrop-filter: blur(32px) !important;
+  color: #F8FAFC !important;
+}
+
+[data-theme="dark"] .modal-dialog label {
+  color: #CBD5E1 !important;
+}
+
+[data-theme="dark"] input,
+[data-theme="dark"] select,
+[data-theme="dark"] textarea {
+  background: rgba(15, 23, 42, 0.95) !important;
+  border-color: rgba(51, 65, 85, 0.8) !important;
+  color: #F8FAFC !important;
+}
+
+[data-theme="dark"] input::placeholder,
+[data-theme="dark"] textarea::placeholder {
+  color: #64748B !important;
+}
+
+[data-theme="dark"] input:focus,
+[data-theme="dark"] select:focus,
+[data-theme="dark"] textarea:focus {
+  border-color: #3B82F6 !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25) !important;
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 11. RECENT ACTIVITY LIST & LEDGER BADGES                   */
+/* ─────────────────────────────────────────────────────────── */
+
+[data-theme="dark"] .ledger-badge-add {
+  background: rgba(30, 58, 138, 0.35) !important;
+  color: #93C5FD !important;
+  border-color: rgba(59, 130, 246, 0.45) !important;
+}
+
+[data-theme="dark"] .ledger-badge-minus {
+  background: rgba(136, 19, 55, 0.35) !important;
+  color: #FDA4AF !important;
+  border-color: rgba(244, 63, 94, 0.45) !important;
+}
+
+[data-theme="dark"] #home-recent-ledger .flex {
+  color: #F8FAFC !important;
+}
+
+[data-theme="dark"] table th {
+  background: rgba(14, 22, 42, 0.85) !important;
+  color: #94A3B8 !important;
+  border-bottom-color: rgba(51, 65, 85, 0.8) !important;
+}
+
+[data-theme="dark"] table td {
+  color: #E2E8F0 !important;
+  border-bottom-color: rgba(51, 65, 85, 0.5) !important;
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 12. FLOATING MARQUEE TICKER                                */
+/* ─────────────────────────────────────────────────────────── */
+
+[data-theme="dark"] #auth-marquee-wrap {
+  background: rgba(5, 9, 20, 0.75) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(16px) !important;
+}
+
+[data-theme="dark"] .marquee-item {
+  color: #CBD5E1 !important;
+  font-weight: 600 !important;
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 13. TOASTS & CHAT ASSISTANT                                */
+/* ─────────────────────────────────────────────────────────── */
+
+[data-theme="dark"] .toast-msg {
+  background: rgba(10, 17, 34, 0.95) !important;
+  border: 1px solid rgba(59, 130, 246, 0.4) !important;
+  color: #F8FAFC !important;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 14. 3D SOLAR SYSTEM & UNIVERSE CANVAS OPTIMIZATION         */
+/* ─────────────────────────────────────────────────────────── */
+
+#three-bg-canvas {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  pointer-events: none !important;
+  z-index: 0 !important;
+  display: block !important;
+}
+
+#three-bg-overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  pointer-events: none !important;
+  z-index: 0 !important;
+  transition: background 0.4s ease !important;
+}
+
+[data-theme="dark"] #three-bg-overlay {
+  background: radial-gradient(circle at 50% 50%, rgba(4, 8, 20, 0.02) 0%, rgba(4, 8, 20, 0.22) 65%, rgba(2, 5, 15, 0.60) 100%) !important;
+}
+
+:root:not([data-theme="dark"]) #three-bg-overlay,
+[data-theme="light"] #three-bg-overlay {
+  background: radial-gradient(circle at 50% 50%, rgba(248, 250, 252, 0.08) 0%, rgba(241, 245, 249, 0.38) 65%, rgba(226, 232, 240, 0.76) 100%) !important;
+}
+
+/* Semi-transparent frosted space cards to see 3D scenes revolving behind UI */
+[data-theme="dark"] .metallic-card,
+[data-theme="dark"] .glass-card,
+[data-theme="dark"] #dashboard-stats-grid > div,
+[data-theme="dark"] #vaults-grid > div {
+  background: linear-gradient(145deg, rgba(7, 13, 30, 0.76) 0%, rgba(3, 7, 18, 0.84) 100%) !important;
+  backdrop-filter: blur(28px) saturate(200%) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(200%) !important;
+  border: 1px solid rgba(59, 130, 246, 0.22) !important;
+  box-shadow: 0 20px 55px -10px rgba(0, 0, 0, 0.75), 0 0 0 1px rgba(255, 255, 255, 0.06) inset !important;
+}
+
+:root:not([data-theme="dark"]) .metallic-card,
+:root:not([data-theme="dark"]) .glass-card,
+[data-theme="light"] .metallic-card,
+[data-theme="light"] .glass-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.78) 0%, rgba(248, 250, 252, 0.68) 100%) !important;
+  backdrop-filter: blur(24px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(180%) !important;
+  border: 1px solid rgba(226, 232, 240, 0.90) !important;
+  box-shadow: 0 16px 40px -10px rgba(15, 23, 42, 0.08), inset 0 1px 0 rgba(255, 255, 255, 1) !important;
+}
+
+/* ── 3D CELESTIAL SETTINGS DRAWER & POPOVER ── */
+.celestial-settings-drawer {
+  position: fixed !important;
+  top: 4.2rem !important;
+  right: 1rem !important;
+  z-index: 99995 !important;
+  width: calc(100vw - 2rem) !important;
+  max-width: 440px !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  transform: translateY(-10px) scale(0.96) !important;
+  transition: opacity 0.24s cubic-bezier(0.16, 1, 0.3, 1), transform 0.24s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.celestial-settings-drawer.open {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  transform: translateY(0) scale(1) !important;
+}
+
+.celestial-drawer-inner {
+  padding: 1rem 1.15rem !important;
+  border-radius: 24px !important;
+  background: rgba(255, 255, 255, 0.88) !important;
+  border: 1px solid rgba(226, 232, 240, 0.95) !important;
+  box-shadow: 0 24px 65px -10px rgba(15, 23, 42, 0.15), 0 0 0 1px rgba(255, 255, 255, 0.8) inset !important;
+  backdrop-filter: blur(28px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(190%) !important;
+}
+
+[data-theme="dark"] .celestial-drawer-inner {
+  background: rgba(8, 14, 28, 0.88) !important;
+  border-color: rgba(255, 255, 255, 0.14) !important;
+  box-shadow: 0 28px 75px -12px rgba(0, 0, 0, 0.85), 0 0 0 1px rgba(255, 255, 255, 0.08) inset !important;
+}
+
+/* Celestial HUD telemetry badge */
+.celestial-hud-pill {
+  position: static !important;
+  transform: none !important;
+  display: flex !important;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.35rem 0.95rem;
+  border-radius: 9999px;
+  font-family: 'Space Grotesk', monospace;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  transition: all 0.3s ease;
+  user-select: none;
+}
+[data-theme="dark"] .celestial-hud-pill {
+  background: rgba(8, 14, 28, 0.75);
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  color: #93C5FD;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 12px rgba(37, 99, 235, 0.2);
+}
+:root:not([data-theme="dark"]) .celestial-hud-pill,
+[data-theme="light"] .celestial-hud-pill {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  color: #2563EB;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+.celestial-pulse-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #10B981;
+  box-shadow: 0 0 8px #10B981;
+  animation: celestialPulse 1.8s infinite ease-in-out;
+}
+@keyframes celestialPulse {
+  0%, 100% { transform: scale(1); opacity: 0.85; }
+  50% { transform: scale(1.4); opacity: 1; }
+}
+
+/* ── INTERACTIVE 3D PLANET SELECTOR DOCK ── */
+.celestial-planet-bar {
+  position: static !important;
+  transform: none !important;
+  display: flex !important;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  user-select: none;
+  transition: all 0.3s ease;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.planet-dock-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 9999px;
+  padding: 0.22rem 0.60rem;
+  font-family: 'Space Grotesk', monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #94A3B8;
+  cursor: pointer;
+  transition: all 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+  white-space: nowrap;
+}
+.planet-dock-btn:hover {
+  color: #F8FAFC;
+  background: rgba(37, 99, 235, 0.22);
+  border-color: rgba(59, 130, 246, 0.4);
+  transform: translateY(-1px);
+}
+.planet-dock-btn.active {
+  color: #60A5FA;
+  background: rgba(37, 99, 235, 0.28);
+  border-color: rgba(96, 165, 250, 0.65);
+  box-shadow: 0 0 14px rgba(37, 99, 235, 0.4);
+}
+:root:not([data-theme="dark"]) .planet-dock-btn {
+  color: #64748B;
+}
+:root:not([data-theme="dark"]) .planet-dock-btn:hover {
+  color: #1D4ED8;
+  background: #EFF6FF;
+  border-color: #BFDBFE;
+}
+:root:not([data-theme="dark"]) .planet-dock-btn.active {
+  color: #1D4ED8;
+  background: #DBEAFE;
+  border-color: #93C5FD;
+  box-shadow: 0 0 10px rgba(37, 99, 235, 0.2);
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 15. 3D KINETIC BRAND EMBLEM & LOGO STYLES                  */
+/* ─────────────────────────────────────────────────────────── */
+
+.smm-3d-emblem-wrap {
+  position: relative;
+  perspective: 600px;
+  cursor: pointer;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.smm-3d-emblem-img {
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.4s ease;
+  box-shadow: 0 8px 24px -4px rgba(37, 99, 235, 0.35);
+}
+
+.smm-3d-emblem-wrap:hover .smm-3d-emblem-img {
+  transform: scale(1.12) rotateY(12deg) rotateX(-6deg) translateY(-2px);
+  box-shadow: 0 16px 36px -4px rgba(37, 99, 235, 0.65), 0 0 20px rgba(56, 189, 248, 0.5);
+}
+
+.smm-3d-emblem-glow {
+  position: absolute;
+  inset: -3px;
+  border-radius: 20px;
+  background: radial-gradient(circle, rgba(37, 99, 235, 0.45) 0%, rgba(56, 189, 248, 0.15) 50%, transparent 75%);
+  filter: blur(8px);
+  z-index: -1;
+  opacity: 0.65;
+  animation: logoGlowPulse 3s ease-in-out infinite alternate;
+}
+
+@keyframes logoGlowPulse {
+  0%   { opacity: 0.45; transform: scale(0.95); }
+  100% { opacity: 0.85; transform: scale(1.08); }
+}
+
+/* Auth Centerpiece 3D Logo Showcase */
+.auth-3d-logo-showcase {
+  animation: authLogoLevitate 4.5s ease-in-out infinite alternate;
+}
+
+@keyframes authLogoLevitate {
+  0%   { transform: translateY(0px) rotate(0deg); }
+  50%  { transform: translateY(-6px) rotate(1.5deg); }
+  100% { transform: translateY(2px) rotate(-1deg); }
+}
+
+/* ─────────────────────────────────────────────────────────── */
+/* 16. MOBILE-FIRST RESPONSIVE PERFECTION FOR SMARTPHONES     */
+/* ─────────────────────────────────────────────────────────── */
+
+/* iOS Safe Area Utilities */
+:root {
+  --sat: env(safe-area-inset-top, 0px);
+  --sar: env(safe-area-inset-right, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+}
+
+.pb-safe {
+  padding-bottom: max(0.65rem, env(safe-area-inset-bottom, 0.65rem)) !important;
+}
+
+.pt-safe {
+  padding-top: max(0.5rem, env(safe-area-inset-top, 0.5rem)) !important;
+}
+
+/* Touch responsiveness & elimination of tap lag / 300ms delay */
+html, body, button, a, input, select, textarea {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:active, .mobile-nav-item:active {
+  transform: scale(0.96);
+  transition: transform 0.08s ease;
+}
+
+/* Fixed Theme Toggle & Celestial Settings Buttons (Desktop / Floating Fallback) */
+#theme-toggle-btn,
+#btn-celestial-settings {
+  position: fixed !important;
+  z-index: 99990 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  cursor: pointer !important;
+  transition: all 0.22s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+/* Desktop positioning */
+@media (min-width: 768px) {
+  #theme-toggle-btn {
+    top: 1.15rem !important;
+    right: 1.25rem !important;
+    width: 2.6rem !important;
+    height: 2.6rem !important;
+  }
+  #btn-celestial-settings {
+    top: 1.15rem !important;
+    right: 4.35rem !important;
+    width: 2.6rem !important;
+    height: 2.6rem !important;
+  }
+}
+
+/* Mobile Phone Positioning (< 768px) - Floating slot on Auth Page */
+@media (max-width: 767px) {
+  #theme-toggle-btn {
+    top: 0.65rem !important;
+    right: 0.75rem !important;
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+  }
+  #theme-toggle-btn svg {
+    width: 15px !important;
+    height: 15px !important;
+  }
+  #btn-celestial-settings {
+    top: 0.65rem !important;
+    right: 3.35rem !important;
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+  }
+  #btn-celestial-settings svg {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  /* When dashboard is active on mobile, hide the loose floating slot so it never collides */
+  html.smm-has-session #desktop-controls-slot {
+    display: none !important;
+  }
+}
+
+/* ── DOCKED CONTROLS IN MOBILE TOPBAR (100% ZERO-OVERLAP GUARANTEE) ── */
+#mobile-controls-dock {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+  flex-shrink: 0 !important;
+}
+
+#mobile-controls-dock #theme-toggle-btn,
+#mobile-controls-dock #btn-celestial-settings {
+  position: static !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  width: 1.85rem !important;
+  height: 1.85rem !important;
+  min-width: 1.85rem !important;
+  min-height: 1.85rem !important;
+  border-radius: 9999px !important;
+  z-index: auto !important;
+  flex-shrink: 0 !important;
+  margin: 0 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#mobile-controls-dock #theme-toggle-btn svg,
+#mobile-controls-dock #btn-celestial-settings svg {
+  width: 13.5px !important;
+  height: 13.5px !important;
+  max-width: 13.5px !important;
+  max-height: 13.5px !important;
+  flex-shrink: 0 !important;
+}
+
+  /* Celestial Settings Drawer on Mobile */
+  .celestial-settings-drawer {
+    top: 3.6rem !important;
+    left: 0.6rem !important;
+    right: 0.6rem !important;
+    width: auto !important;
+    max-width: calc(100vw - 1.2rem) !important;
+  }
+  .celestial-drawer-inner {
+    padding: 0.85rem 1rem !important;
+    border-radius: 20px !important;
+  }
+  .celestial-planet-bar {
+    gap: 0.25rem !important;
+  }
+  .planet-dock-btn {
+    padding: 0.32rem 0.60rem !important;
+    font-size: 0.68rem !important;
+    min-height: 32px !important;
+  }
+
+  /* Auth Screen on Mobile */
+  #authContainer {
+    padding: 1rem 0.85rem 4.5rem !important;
+  }
+  #auth-card-inner {
+    padding: 1.5rem 1.25rem 1.35rem !important;
+    border-radius: 24px !important;
+  }
+  #auth-headline {
+    font-size: clamp(1.6rem, 6.5vw, 2.1rem) !important;
+  }
+  .auth-stats-row {
+    gap: 0.35rem !important;
+  }
+  .auth-stat-item {
+    padding: 0.6rem 0.4rem !important;
+  }
+  .auth-stat-num {
+    font-size: 1.05rem !important;
+  }
+  .auth-stat-label {
+    font-size: 9px !important;
+  }
+
+  /* Main Viewport & Cards on Mobile */
+  main {
+    padding-left: 0.85rem !important;
+    padding-right: 0.85rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 7.5rem !important;
+  }
+  .metallic-card {
+    padding: 1.15rem 1rem !important;
+    border-radius: 20px !important;
+  }
+  .glass-inner-tile {
+    padding: 0.85rem 0.9rem !important;
+    border-radius: 16px !important;
+  }
+
+  /* Mobile Lower Navigation Dock */
+  #mobile-navigation-dock {
+    padding-top: 0.45rem !important;
+    padding-bottom: max(0.55rem, calc(env(safe-area-inset-bottom, 0px) + 0.35rem)) !important;
+    min-height: 64px !important;
+  }
+  .mobile-nav-item {
+    padding-top: 0.35rem !important;
+    padding-bottom: 0.25rem !important;
+    min-height: 48px !important;
+  }
+  .mobile-nav-item svg {
+    width: 22px !important;
+    height: 22px !important;
+  }
+
+  /* Modal Bottom Sheet */
+  .modal-overlay {
+    align-items: flex-end !important;
+    justify-content: center !important;
+    padding: 0 !important;
+  }
+  .modal-dialog {
+    border-radius: 26px 26px 0 0 !important;
+    max-height: 90vh !important;
+    padding-bottom: max(1.5rem, calc(env(safe-area-inset-bottom, 0px) + 1.25rem)) !important;
+  }
+
+  /* Compact Calendar Day Cells on Mobile */
+  .cal-day-cell {
+    min-height: 44px !important;
+    padding: 4px 1px !important;
+    font-size: 10px !important;
+    border-radius: 9px !important;
+  }
+  .cal-day-cell.cal-active-saved .cal-day-badge {
+    padding: 1px 4px !important;
+    font-size: 8px !important;
+  }
+
+  /* Touch targets for all buttons on mobile */
+  .btn-primary-metallic,
+  .btn-secondary-metallic,
+  .btn-danger-metallic {
+    min-height: 48px !important;
+  }
+}
+
+/* Extra Compact Phones (iPhone SE, Galaxy S8/9, screens < 380px) */
+@media (max-width: 380px) {
+  #auth-card-inner {
+    padding: 1.25rem 0.95rem 1.15rem !important;
+  }
+  .cal-day-cell {
+    min-height: 38px !important;
+    font-size: 9px !important;
+    padding: 2px 1px !important;
+  }
+  .cal-day-cell.cal-active-saved .cal-day-badge {
+    font-size: 7px !important;
+    padding: 0.5px 2.5px !important;
+  }
+  #totalStashedDisplay {
+    font-size: 2.15rem !important;
+  }
+}
+
+
+
+
