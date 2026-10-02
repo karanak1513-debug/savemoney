@@ -5,7 +5,7 @@
 // ============================================================
 
 import { auth } from "../firebase-config.js";
-import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
 import { logOut } from "./auth.js";
 import { getInitials, showToast, initSidebarToggle } from "./utils.js";
 

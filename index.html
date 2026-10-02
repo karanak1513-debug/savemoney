@@ -1471,7 +1471,7 @@
         }
 
         if (current < 100) {
-          requestAnimationFrame(frame);
+          var _loaderInt = setInterval(function(){frame(); if(window._loaderDone){clearInterval(_loaderInt);}},30);
         } else {
           setTimeout(dismiss, 280);
         }
@@ -1495,7 +1495,7 @@
       window.addEventListener('keydown', function(e) {
         if (e.key === 'Escape') dismiss();
       }, { once: true });
-      setTimeout(dismiss, 2200);
+      setTimeout(dismiss, 1500);
     })();
   </script>
 
